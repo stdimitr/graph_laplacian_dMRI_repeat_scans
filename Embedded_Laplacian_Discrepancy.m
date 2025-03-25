@@ -11,6 +11,9 @@ function ELD = Embedded_Laplacian_Discrepancy(lambda1,vector1,lambda2,vector2,n1
 
 %%% OUTPUT : ELD per k hyperparameter - you should get its mean
 
+%% Senior Researcher, Dr. Stavros I. Dimitriadis
+%% v1.0 12/3/2025
+%% Personal Website : https://www.researchgate.net/profile/Stavros-Dimitriadis-3
 
 nodes = size(vector1,1);
 min_k = min(n1,n2);

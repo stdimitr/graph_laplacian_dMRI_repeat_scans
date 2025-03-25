@@ -12,6 +12,15 @@ function wsd = ws_distance(u_samples, v_samples, p)
 %   p must be 1 or 2.
 %
 % from https://github.com/nklb/wasserstein-distance
+
+
+%% Senior Researcher, Dr. Stavros I. Dimitriadis
+%% Personal Website : https://www.researchgate.net/profile/Stavros-Dimitriadis-3
+
+%% v1.0 12/4/2008
+%% v1.1 15/5/209
+
+
 if ~exist('p', 'var')
     p = 1;
 end

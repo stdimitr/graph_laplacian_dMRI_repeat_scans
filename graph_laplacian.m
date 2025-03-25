@@ -10,6 +10,12 @@ function [L, U, ev] = graph_laplacian(A, method)
 %           'natural': L = D - A
 %           'normalized': L = I - D^(-1/2)*A*D^(-1/2)
 
+%% Senior Researcher, Dr. Stavros I. Dimitriadis
+%% v1.0 12/3/2010
+%% v1.1 16/7/2010
+%% Personal Website : https://www.researchgate.net/profile/Stavros-Dimitriadis-3
+
+
 rowdegree = (sum(A, 2)).';
 coldegree = sum(A, 1);
 nroi = length(rowdegree);
